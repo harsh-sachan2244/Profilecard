@@ -1,0 +1,145 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+.box{
+    height: 450px;
+    width: 350px;
+ border-top-right-radius: 25px;
+ border-top-left-radius: 25px;
+ border-bottom-right-radius: 25px;
+ border-bottom-left-radius: 25px;
+    border:2px solid black;
+    background-color: rgb(81, 113, 140);
+    padding: px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+text-align: center;
+margin: 5px;
+}
+h3{
+    margin: 10px;
+    color:rgb(142, 8, 86);
+}
+img{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    padding: 3px;
+    margin-left: 95px;
+    margin-top: 25px;
+    
+    
+}
+.img.profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+
+}
+.downward{
+    height: 200px;
+    width: 350px;
+    border: 0px solid black;
+    margin-top: auto;
+    background-color:whitesmoke;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.role{
+    display: flex;
+    justify-content: space-around;
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fa{
+    padding: 5px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background:rgb(18, 43, 133);
+    color: white;
+    
+}
+.fa-twitter{
+    background: blue;
+    color: aliceblue;
+}
+.fa-linkedin{
+    background: rgb(2, 2, 233);
+color:azure;
+}
+.fa-youtube{
+    background: red;
+    color: white;
+    
+}
+.sub{
+    border: 2px solid black;
+    padding: 5px;
+font-size: large;
+   width: 80px;
+   border: 2px solid black;
+   text-align: center;
+   border-radius: 20px;
+   background: rgb(45, 7, 214);
+   color: rgb(239, 233, 230);
+   margin-top: 25px;
+   
+}
+.new{
+    display: flex;
+align-items: center;
+justify-content:space-around;
+margin-top: 10px;}
+
+.mes{
+    border: 2px solid black;
+    padding: 5px;
+font-size: large;
+   width: 80px;
+   border: 2px solid black;
+   text-align: center;
+   border-radius: 20px;
+   background: rgb(45, 7, 214);
+   color:rgb(239, 233, 230);
+   margin-top: 25px;
+  
+}
+.sub:hover{
+    opacity: 0.7;
+}
+.mes:hover{
+    opacity: 0.7;
+}
+h4{
+    margin-left:5px;
+}
